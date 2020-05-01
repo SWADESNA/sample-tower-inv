@@ -1,5 +1,8 @@
 - hosts: group1
   tasks:
-  - name: Ansible Basic Variable Example
-    debug:
-      msg: "{{ greeting }}"
+    - name: Ansible Basic Variable Example
+      debug:
+        msg: "{{ greeting }}"
+
+
+
