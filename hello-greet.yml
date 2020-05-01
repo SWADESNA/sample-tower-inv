@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: group1
   tasks:
   - name: Ansible Basic Variable Example
     debug:
