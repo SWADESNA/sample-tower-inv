@@ -1,8 +1,13 @@
-- hosts: group1
+- name: Hello World Sample
+  hosts: all
   tasks:
-    - name: Ansible Basic Variable Example
+    - name: Hello Message
       debug:
         msg: "{{ greeting }}"
+     - name: Hello Message
+       debug:
+         msg: "Hello World!"
+
 
 
 
